@@ -1,47 +1,79 @@
 
-
-body{
-	font-family: sans-serif;
-  background-color: #FAEBD7;
-	}
-article{
-  margin: 0 auto;
-  width: 600px;
+html, body, h1, p, h3, form, ul, li, {
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+}
+ol, ul {
+   list-style: none;
 }
 
+html{
+   background-color: #fff;  
+   border-top: 30px solid rgba(224, 56, 12, 0.4);
+}
 
-#results, #alert{
-  display:none;
+section{
+   text-align: center;
+}
+
+h1{
+   font-size: 48px;
+   color: rgb(58, 58, 58);
+   text-shadow: -2px 3px 5px #fff;
+   font-family: Helvetica, sans-serif;
+   margin-top: 30px;
+}
+
+p{
+   color: rgb(119, 119, 119);
+   font-size: 24px;
+   font-family: Georgia, serif;
+}
+
+span{
+   display: inline-block;
+   margin-top: 15px;
+   color: rgb(224, 56, 12);
+   text-shadow: -2px 3px 5px #fff; 
+   font-family: Helvetica;
+}
+
+#inputForm{
+  border-radius: 3px;
+}
+
+#inputNumber{
+   padding: 5px;
+   border-radius: 3px;
+}
+
+#bnPlay{
+    padding: 5px;
+   border-radius: 3px;
+}
+
+#fbList{
  
 }
 
-#alert{
-  color: orange;
+button:hover{
+  background-color:  rgba(224, 56, 12, 0.4);
+  text-shadow: -2px 3px 5px #fff;
 }
 
-#thanks{
-  color:blue;
+#bnReset{
+   padding: 5px;
+   border-radius: 3px ;
+}
+
+.fb{
+   color:rgb(224, 56, 12);
+   font-size: 24px;
 }
 
 li{
-  list-style:none;
-  margin-left:-2.3em;
-}
-
-.choice {
-    color: DodgerBlue;
-}
-.fizz {
-    color: Fuchsia;
-}
-.buzz {
-    color: DarkViolet;
-}
-.fizzbuzz {
-    color: GoldenRod;
-}
-
-#userInputTextfield{
-	text-align: right;
-	width: 5em;
+     color: rgb(58, 58, 58);
+    font-family: Helvetica, sans-serif;
+    font-size:20px;
 }

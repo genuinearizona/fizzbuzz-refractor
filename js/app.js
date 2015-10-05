@@ -6,7 +6,7 @@ $(document).ready(function () {
        event.preventDefault();
         fizzbuzz();
      }
-     });//end of keydown function
+     });
    
         $("#bnPlay").click(function() {
           fizzbuzz();
@@ -27,7 +27,7 @@ $(document).ready(function () {
             } else {
                 $("#fbList").append("<li>" + i + "</li>")
             }
-        };/
+        };
       }
    }
    
